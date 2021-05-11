@@ -5,7 +5,7 @@ https://public.tableau.com/profile/jose.santos4967#!/vizhome/Module14Challenge_1
 
 ### Purpose
 
-The purpose of this analysis was to create a webpage that contained information on UFO sightings including date, city, state, country, shape of UFO, duration of sighting and showed comments on the sighting in a table format.  To make it easier to find specific sightings, the webpage provided the ability filter by multiple or single criteria (sightings by date, city, state, country and shape of UFO). 
+The purpose of this analysis was to demonstrate that based on NYC bike sharing data, a similar business in Des Moines would likely succeed.
 
 ## Results
 
