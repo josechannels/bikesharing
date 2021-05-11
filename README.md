@@ -13,7 +13,7 @@ The purpose of this analysis was to demonstrate that based on NYC bike sharing d
 
 ### Trip Duration
 
-A plot of the number of bike trips tkane versus duration, shows that the majority of the trips are short:  Almost all are shorter than 60 minutes, and the most typical duration is less than 10 minutes:
+A plot of the number of bike trips taken versus trip duration, shows that the majority of the trips are short:  Almost all are shorter than 60 minutes, and the most typical duration is less than 10 minutes:
 
 ![](Slide2-Trip_duration.PNG)
 
@@ -28,27 +28,38 @@ A plot that shows the number of bikes shared per starting and ending time per we
 1. From Monday to Friday the peak hours are 7 to 9 AM and 4 to 7 PM.
 2. During the weekends,the peak hours are between 9 AM and 6 PM - and there appear to be more people riding the bikes on Saturday than Sunday.
 
-![](Slide4-Slide4-Peak_usage.PNG)
+![](Slide4-Peak_usage.PNG)
+
+A plot that breaks down day usage by gender and per customer type (subscriber versus non-subscriber) shows that:
+1) The number of male and female subscriber users is significantly larger than those users that are non-subscribers.
+2) The number of unknown gender riders that are non-subscribers is larger than those that subscribe the service.
+3) There is no clear prefered work week day to rent a bike for non-subscribers of all genders - usage is low on all days.
+4) The preference to rent bikes during the workweek is stronger among males than females - Thursday being a peak day for male subscriber usage.
 
 ![](Slide5-Peak_usage_gender.PNG)
 
+When the start and ending ride times are plotted by gender per weekday, it is clear that there are peak usage times and days for female and male riders but not by those with gender unknown:
+1. Males and females peak weekday ride hours are between 7AM to 9AM and 4 to 7PM.
+2. On the weekends, all genders share the same peak usage hours between 9 AM and 7 PM.
+
 ![](Slide6-Gender_weekday.PNG)
+
+Plotting the start location of a bike ride by gender on the map of New York city shows that there are "hotspots" to pick up a bike and start riding.
+
+Interestingly, the preference for the starting location is not perfectly aligned by gender: in some starting locations the number of female and male riders is almost the same while in others there is a clear preference for male riders.  
+
+The preferred starting location for those of "unknown" gender can not be deciphered likely due to the small number of uknown gender riders compared to male and female riders. 
 
 ![](Slide7-Starting_Location.PNG)
 
+Plotting the end location of a bike ride by gender on the map of New York city shows that there are "hotspots" to drop off a bike.
+
+As observed for the preferred locations to pick up a bike, the preference for the ending location is not perfectly aligned by gender: in some locations the number of female and male riders is almost the same while in others there is a clear preference for male riders.  
+
+Unlike in the plot for the starting locations, there appear to be favorite spots to drop off a bike on the west side of the city, across the river Hudson.
+
 ![](Slide8-Ending_Location.PNG)
 
-When the webpage loads, the unfiltered page shows all of the sightings:
-![](static/images/unfiltered_table.PNG).
-
-Filtering the data by the city "el cajon" by entering "el cajon" in the "enter city field" and pressing enter produces the filtered table:
-![](static/images/filtered_on_city.PNG)
-
-Filtering on date (01/13/2010) produced the filtered table:
-![](static/images/filtered_on_date.PNG)
-
-If we then add an additional filter to the date, by entering "pa" in the "enter state" field, we obtain the following filtered table:
-![](static/images/filtered_on_date_and_on_state.PNG)
 
 ## Summary
 
