@@ -1,8 +1,6 @@
-# bikesharing
+# Bikesharing
+
 ## Overview of Project
-
-https://public.tableau.com/profile/jose.santos4967#!/vizhome/Module14Challenge_16205284163930/Bike_Sharing?publish=yes
-
 
 ### Purpose
 
